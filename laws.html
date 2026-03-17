@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indigenous Peoples' Rights & Laws</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+    /* BACKGROUND WITH LARGE LOGO */
+    body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background:
+        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        url('bpsu-logo.png') no-repeat 10% center;
+    background-size: 33% auto; /* logo now ~1/3 width */
+    background-attachment: fixed;
+    background-color: #f4f1e6;
+    color: #333;
+    line-height: 1.7;
+}
+
+    /* RIGHT SIDE NAME + STUDENT NUMBER */
+    .name-panel {
+    position: fixed;
+    right: 130px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3cm;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        background: #5c3d2e;
+        padding: 18px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .nav a {
+        color: white;
+        margin: 0 25px;
+        font-weight: 600;
+        transition: color 0.3s;
+    }
+    .nav a.active, .nav a:hover {
+        color: #ffd700;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.8s ease-in-out;
+    }
+
+    .card.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .accordion {
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        font-size: 18px;
+        transition: 0.4s;
+        background: #e3d5ca;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .accordion.active, .accordion:hover {
+        background: #d8c3a5;
+    }
+
+    .panel {
+        padding: 0 18px 15px 18px;
+        display: none;
+        background-color: #f7f3e9;
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 10px;
+        border-left: 4px solid #5c3d2e;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .panel a {
+        color: #5c3d2e;
+        text-decoration: underline;
+    }
+
+    .video-thumbnail {
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: transform 0.3s;
+        display: block;
+    }
+
+    .video-thumbnail:hover {
+        transform: scale(1.05);
+    }
+
+    .resources a {
+        color: #5c3d2e;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+    .resources a:hover {
+        color: #d8a657;
+    }
+
+    @media (max-width: 768px) {
+        .nav {
+            flex-direction: column;
+        }
+        .nav a {
+            margin: 10px 0;
+        }
+        .video-section .card {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        .video-section .card img {
+            margin-bottom: 15px;
+            max-width: 80%;
+        }
+        .video-section .card-text {
+            margin-right: 0;
+        }
+    }
+</style>
+</head>
+<body>
+
+<!-- NAME + STUDENT NUMBER -->
+<div class="name-panel">
+    <strong>Precious Liane T. Calinisan</strong><br>
+    25-01232
+</div>
+
+<!-- NAVIGATION -->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="information.html">Information</a>
+    <a href="laws.html" class="active">Laws</a>
+    <a href="definitionofterms.html">Definition of Terms</a>
+</div>
+
+<div class="container">
+    <h1 style="text-align:center; color:#4b5320;">Indigenous Peoples' Rights & Laws</h1>
+
+    <!-- IPRA CARD -->
+    <div class="card">
+        <h2>Indigenous Peoples’ Rights Act (RA 8371)</h2>
+        <p>
+            Enacted in 1997, RA 8371 recognizes Indigenous Cultural Communities/Indigenous Peoples (ICCs/IPs) as a distinct sector. 
+            It ensures protection of their ancestral lands, governance, culture, and basic rights. The law empowers IPs to participate 
+            in policy-making and safeguards them from displacement and exploitation.
+        </p>
+
+        <button class="accordion">Right to Ancestral Domains and Lands</button>
+        <div class="panel">
+            <p>
+                Indigenous Peoples have the right to own, occupy, develop, and manage their ancestral lands and territories. 
+                This includes forests, rivers, and natural resources. It protects them from forced eviction and guarantees 
+                security of land tenure. <a href="https://www.ncip.gov.ph/" target="_blank">Learn more about Ancestral Domain Rights</a>.
+            </p>
+        </div>
+
+        <button class="accordion">Right to Self-Governance and Empowerment</button>
+        <div class="panel">
+            <p>
+                ICCs/IPs can maintain their traditional political structures, decision-making processes, and leadership 
+                systems. They are empowered to manage internal affairs, resolve conflicts, and implement community rules 
+                in accordance with their customs. <a href="https://www.officialgazette.gov.ph/acts/" target="_blank">Further reading</a>.
+            </p>
+        </div>
+
+        <button class="accordion">Social Justice and Human Rights</button>
+        <div class="panel">
+            <p>
+                Protects indigenous peoples from discrimination and marginalization. Ensures access to social services 
+                such as education, healthcare, and livelihood support. Provides legal recourse for rights violations. 
+                <a href="https://www.ohchr.org/en/indigenous-peoples" target="_blank">More on Human Rights for IPs</a>.
+            </p>
+        </div>
+
+        <button class="accordion">Right to Cultural Integrity</button>
+        <div class="panel">
+            <p>
+                Safeguards languages, traditions, beliefs, and rituals. Encourages the preservation of cultural heritage, 
+                arts, music, and ceremonies, passing these to future generations. <a href="https://www.ncip.gov.ph/" target="_blank">Read more</a>.
+            </p>
+        </div>
+    </div>
+
+    <!-- OTHER LAWS CARD -->
+    <div class="card">
+        <h2>Other Relevant Laws Protecting Indigenous Peoples</h2>
+
+        <button class="accordion">RA 7611 – Special Protection of Children</button>
+        <div class="panel">
+            <p>
+                Protects children, including indigenous children, from abuse, exploitation, and discrimination. 
+                Ensures their well-being and growth in a safe and nurturing environment. 
+                <a href="https://www.officialgazette.gov.ph/1992/06/23/republic-act-no-7610/" target="_blank">Official text</a>.
+            </p>
+        </div>
+
+        <button class="accordion">RA 9003 – Ecological Solid Waste Management</button>
+        <div class="panel">
+            <p>
+                Aims to protect lands, rivers, and forests in indigenous territories. Promotes sustainable practices 
+                to conserve natural resources and reduce pollution. 
+                <a href="https://www.officialgazette.gov.ph/2000/01/26/republic-act-no-9003/" target="_blank">Full law</a>.
+            </p>
+        </div>
+
+        <button class="accordion">RA 9176 – Indigenous Peoples Education Act</button>
+        <div class="panel">
+            <p>
+                Ensures culturally appropriate education programs that respond to the needs of indigenous communities. 
+                Encourages mother-tongue instruction and preservation of cultural knowledge. 
+                <a href="https://www.officialgazette.gov.ph/2002/06/12/republic-act-no-9176/" target="_blank">Learn more</a>.
+            </p>
+        </div>
+
+        <button class="accordion">FPIC – Free, Prior, and Informed Consent</button>
+        <div class="panel">
+            <p>
+                No project or activity may proceed on ancestral lands without the free, prior, and informed consent of the community. 
+                Ensures IPs have full understanding of projects affecting their lands and the power to approve or reject them. 
+                <a href="https://www.ncip.gov.ph/fpic/" target="_blank">More about FPIC</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+<script>
+    const accordions = document.querySelectorAll(".accordion");
+    accordions.forEach(acc => {
+        acc.addEventListener("click", function() {
+            this.classList.toggle("active");
+            const panel = this.nextElementSibling;
+            panel.style.display = panel.style.display === "block" ? "none" : "block";
+        });
+    });
+
+    const cards = document.querySelectorAll('.card');
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.2 });
+    cards.forEach(card => observer.observe(card));
+</script>
+
+</body>
+</html>

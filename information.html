@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Information - Indigenous Peoples Rights</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* BACKGROUND WITH LARGER LOGO (same as homepage, bigger now) */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background:
+        linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+        url('bpsu-logo.png') no-repeat 10% center;
+    background-size: 33% auto; /* logo now ~1/3 width */
+    background-attachment: fixed;
+    background-color: #f4f1e6;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* RIGHT SIDE NAME + STUDENT NUMBER (same as homepage) */
+.name-panel {
+    position: fixed;
+    right: 130px; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3cm;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+nav{
+    background:#3e2723;
+    padding:18px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav a{
+    color:white;
+    margin:25px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd54f;
+}
+
+.hero{
+    background:linear-gradient(to right,#6d4c41,#8d6e63);
+    color:white;
+    padding:80px;
+    text-align:center;
+}
+
+.section{
+    padding:60px 80px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    display:flex;
+    gap:30px;
+    align-items:center;
+    margin-bottom:40px;
+    transition:0.4s;
+    animation:fadeUp 1s ease forwards;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width:300px;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.card-text{
+    line-height:1.8;
+    text-align:justify;
+}
+
+.reverse{
+    flex-direction:row-reverse;
+}
+
+.video-section{
+    background:#d7ccc8;
+    padding:40px;
+    border-radius:15px;
+    margin-top:50px;
+}
+
+.video-section a{
+    font-weight:600;
+    color:#3e2723;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+footer{
+    background:#3e2723;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAME + STUDENT NUMBER -->
+<div class="name-panel">
+    <strong>Precious Liane T. Calinisan</strong><br>
+    25-01232
+</div>
+
+<!-- NAVIGATION -->
+<nav>
+<a href="index.html">Home</a>
+<a href="information.html" style="color:#ffd54f;">Information</a>
+<a href="laws.html">Laws</a>
+<a href="definitionofterms.html">Definition of Terms</a>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Historical and Legal Basis of IP Rights in the Philippines</h1>
+<p>Understanding the roots and legal protection of Indigenous Peoples</p>
+</div>
+
+<div class="section">
+
+<!-- INDios -->
+<div class="card">
+<img src="indios.jpg">
+<div class="card-text">
+<h2>Indios (Christianized Lowlanders)</h2>
+<p>
+Indios was the colonial term used by the Spanish to classify the indigenous, Christianized populations of the Philippine lowlands...
+</p>
+</div>
+</div>
+
+<!-- MOROS -->
+<div class="card reverse">
+<img src="moros.jpg">
+<div class="card-text">
+<h2>Moros (Muslim Communities in the South)</h2>
+<p>
+The Moro people, or Bangsamoro, are a collective of 13 indigenous ethnolinguistic groups in the southern Philippines...
+</p>
+</div>
+</div>
+
+<!-- INFIELES -->
+<div class="card">
+<img src="infieles.jpg">
+<div class="card-text">
+<h2>Infieles (Upland Indigenous Communities)</h2>
+<p>
+Infieles (meaning "infidels" or "unbelievers") was the collective term used by Spanish colonial authorities...
+</p>
+</div>
+</div>
+
+<!-- CONSTITUTION -->
+<div class="card reverse">
+<img src="constitution.jpg">
+<div class="card-text">
+<h2>1987 Philippine Constitution</h2>
+<p>
+Article II, Section 22 mandates the State to recognize and promote the rights of Indigenous Cultural Communities, protecting ancestral lands and cultural traditions.
+</p>
+</div>
+</div>
+
+<!-- IPRA -->
+<div class="card">
+<img src="ipra.jpg">
+<div class="card-text">
+<h2>Indigenous Peoples’ Rights Act of 1997 (RA 8371)</h2>
+<p>
+IPRA recognizes ICCs/IPs as a distinct sector and guarantees rights to ancestral domains, self-governance, social justice, and cultural integrity.
+</p>
+<p>
+🔗 <a href="https://www.officialgazette.gov.ph/1997/10/29/republic-act-no-8371/" target="_blank">
+View the Official IPRA Law (Official Gazette)
+</a>
+</p>
+</div>
+</div>
+
+<!-- UNDRIP -->
+<div class="card reverse">
+<img src="undrip.jpg">
+<div class="card-text">
+<h2>UN Declaration on the Rights of Indigenous Peoples (2007)</h2>
+<p>
+UNDRIP establishes international standards recognizing Indigenous Peoples’ rights to self-determination, land ownership, and Free, Prior, and Informed Consent (FPIC).
+</p>
+<p>
+🔗 <a href="https://www.ohchr.org/sites/default/files/Documents/Publications/Declaration_indigenous_en.pdf" target="_blank">
+Read the Official UNDRIP Document (PDF)
+</a>
+</p>
+</div>
+</div>
+
+</div>
+
+<footer>
+© 2026 | Indigenous Peoples Rights Awareness Website
+</footer>
+
+</body>
+</html>
